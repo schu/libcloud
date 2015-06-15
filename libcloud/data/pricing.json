@@ -251,7 +251,8 @@
             "t1.micro": "0.020",
             "t2.medium": "0.056",
             "t2.micro": "0.014",
-            "t2.small": "0.028"
+            "t2.small": "0.028",
+	    "m4.large": "0.136"
         },
         "ec2_sa_east": {
             "c1.medium": "0.179",

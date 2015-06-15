@@ -397,7 +397,14 @@ INSTANCE_TYPES = {
         'extra': {
             'cpu': 2
         }
-    }
+    },
+    'm4.large': {
+        'id': 'm4.large',
+        'name': 'Large Instance',
+        'ram': 8192,
+        'disk': 0,  # EBS Only
+        'bandwidth': None,
+    },
 }
 
 REGION_DETAILS = {
@@ -582,7 +589,8 @@ REGION_DETAILS = {
             'r3.8xlarge',
             't2.micro',
             't2.small',
-            't2.medium'
+            't2.medium',
+            'm4.large'
         ]
     },
     # EU (Frankfurt) Region
